@@ -1,0 +1,86 @@
+Cross-Language Information Retrieval (CLIR) System - References
+
+================================================================================
+RESEARCH PAPERS AND ACADEMIC REFERENCES
+================================================================================
+
+1. Information Retrieval
+   - Salton, G., & McGill, M. J. (1986). Introduction to Modern Information Retrieval.
+   - Manning, C. D., Raghavan, P., & Schütze, H. (2008). Introduction to Information Retrieval.
+
+2. Cross-Language Information Retrieval
+   - Oard, D. W., & Diekema, A. R. (1998). Cross-Language Information Retrieval.
+   - Nie, J. Y. (2010). Cross-Language Information Retrieval.
+
+3. TF-IDF and Vector Space Models
+   - Salton, G., & Buckley, C. (1988). Term-weighting approaches in automatic text retrieval.
+   - Robertson, S. (2004). Understanding inverse document frequency: on theoretical arguments for IDF.
+
+4. Machine Translation
+   - Koehn, P. (2009). Statistical Machine Translation.
+   - Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural Machine Translation by Jointly Learning to Align and Translate.
+
+5. Natural Language Processing
+   - Jurafsky, D., & Martin, J. H. (2020). Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition.
+
+6. Evaluation Metrics
+   - Voorhees, E. M. (2001). The TREC Question Answering Track.
+   - Sakai, T. (2007). Alternatives to Bpref.
+
+================================================================================
+TECHNICAL DOCUMENTATION
+================================================================================
+
+1. scikit-learn Documentation
+   - TF-IDF Vectorization: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+   - Cosine Similarity: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html
+
+2. NLTK Documentation
+   - Natural Language Toolkit: https://www.nltk.org/
+
+3. Google Translate API
+   - googletrans Library: https://pypi.org/project/googletrans/
+
+4. Streamlit Documentation
+   - Streamlit Framework: https://docs.streamlit.io/
+
+================================================================================
+DATASETS AND RESOURCES
+================================================================================
+
+1. Wikipedia
+   - English Wikipedia: https://en.wikipedia.org/
+   - Can be used as a corpus source
+
+2. Indian Language Corpora
+   - Various Indian language text corpora available for research
+
+================================================================================
+SOFTWARE AND TOOLS
+================================================================================
+
+1. Python Libraries
+   - NumPy: Numerical computing
+   - scikit-learn: Machine learning
+   - NLTK: Natural language processing
+   - Streamlit: Web application framework
+   - pandas: Data manipulation
+   - matplotlib: Visualization
+
+2. Development Tools
+   - Python 3.8+
+   - Jupyter Notebooks
+   - Git version control
+
+================================================================================
+CITATION FORMAT
+================================================================================
+
+If using this project in academic work, please cite:
+
+Cross-Language Information Retrieval System using NLP and Translation API.
+[Your Institution/Name], [Year].
+Available at: [Repository URL]
+
+================================================================================
+

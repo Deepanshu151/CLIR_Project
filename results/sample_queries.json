@@ -1,0 +1,36 @@
+{
+  "queries": [
+    {
+      "original": "भारत का प्रधानमंत्री कौन है?",
+      "language": "hindi",
+      "translated": "Who is the Prime Minister of India?",
+      "expected_relevant_docs": [1]
+    },
+    {
+      "original": "भारत की राजधानी क्या है?",
+      "language": "hindi",
+      "translated": "What is the capital of India?",
+      "expected_relevant_docs": [2]
+    },
+    {
+      "original": "भारत की आधिकारिक भाषा क्या है?",
+      "language": "hindi",
+      "translated": "What is the official language of India?",
+      "expected_relevant_docs": [4]
+    },
+    {
+      "original": "Who is the Prime Minister of India?",
+      "language": "english",
+      "translated": "Who is the Prime Minister of India?",
+      "expected_relevant_docs": [1]
+    },
+    {
+      "original": "What is the capital of India?",
+      "language": "english",
+      "translated": "What is the capital of India?",
+      "expected_relevant_docs": [2]
+    }
+  ],
+  "description": "Sample queries for testing the CLIR system in multiple languages"
+}
+

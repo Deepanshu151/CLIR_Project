@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIR System - Cross-Language Information Retrieval</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Cross-Language Information Retrieval System</h1>
+            <p>Retrieve documents in one language using queries in another language</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="search-box">
+                    <input type="text" id="queryInput" placeholder="Enter your query (e.g., भारत का प्रधानमंत्री कौन है?)" />
+                    <button id="searchBtn" onclick="performSearch()">🔎 Search</button>
+                </div>
+                <div class="settings">
+                    <label>Number of Results: 
+                        <input type="number" id="topK" value="5" min="1" max="10" />
+                    </label>
+                </div>
+            </div>
+
+            <div id="loading" class="loading" style="display: none;">
+                <p>🔄 Translating and retrieving documents...</p>
+            </div>
+
+            <div id="results" class="results" style="display: none;">
+                <div class="translated-query">
+                    <h3>🔹 Translated Query</h3>
+                    <p id="translatedQuery"></p>
+                </div>
+
+                <div class="retrieved-results">
+                    <h3>📄 Top Retrieved Results</h3>
+                    <div id="resultsList"></div>
+                </div>
+
+                <div class="translated-result" id="translatedResult" style="display: none;">
+                    <h3>🌐 Top Result (Hindi Translation)</h3>
+                    <p id="translatedResultText"></p>
+                </div>
+            </div>
+
+            <div id="error" class="error" style="display: none;">
+                <p id="errorMessage"></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Cross-Language Information Retrieval System</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
