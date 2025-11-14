@@ -64,7 +64,7 @@ def main():
     """Main Streamlit application."""
     
     # Header
-    st.markdown('<h1 class="main-header">🌍 Cross-Language Information Retrieval System</h1>', 
+    st.markdown('<h1 class="main-header">🌍 Welcome to LEXICA !</h1>', 
                 unsafe_allow_html=True)
     
     st.markdown("---")
